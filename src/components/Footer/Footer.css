@@ -1,0 +1,11 @@
+.footer-p {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+}

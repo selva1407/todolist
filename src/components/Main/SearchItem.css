@@ -1,0 +1,10 @@
+
+.searchForm {
+  margin: 10px 10px;
+  display: flex;
+}
+
+.searchForm label {
+  position: absolute;
+  left:-9999999px;
+}

@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.todo-container {
+ /*border: 1px solid black;*/
+ border-radius: 5px;
+ margin:150px 10px 0 10px;
+ padding:10px 10px 20px 10px;
+ height:80vh;
+ overflow-y: auto;
+ box-shadow: 2px 2px 5px grey;
+}
+
+.todo-container ul {
+  list-style-type: none;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.todo-li {
+  display: flex;
+  align-items: center;
+  padding:10px;
+  border:1px solid black;
+  margin:5px 0;
+  border-radius: 5px;
+  background: linear-gradient(to bottom right,#5b7fff,#33ccfc);
+  /*background: linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);*/
+}
+
+.todo-li input[type="checkbox"] {
+  height:18px;
+  aspect-ratio: 1/1;
+  accent-color: orange;
+}
+
+.todo-li label {
+  flex:1;
+  padding-left: 5px;
+  color:white;
+}
+
+.todo-empty {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-empty p {
+  font-weight: bold;
+}
+
+.todo-empty img {
+  width:100%;
+}

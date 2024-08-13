@@ -1,0 +1,46 @@
+.addForm {
+  margin: 10px 10px;
+  display:flex;
+}
+
+.addForm label {
+  position: absolute;
+  left: -999999px;
+}
+
+.input-text {
+  flex:1;
+  border:none;
+  appearance: none;
+  -webkit-appearance:none;
+  -ms-appearance:none;
+  -moz-appearance:none;
+  background: #f2f2f2;
+  padding:10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-text:focus::placeholder {
+  color: transparent;
+}
+
+.input-text::placeholder {
+  color:#222;
+  transition:color 0.3s ease;
+}
+
+.addIcon {
+  padding:5px 20px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addIcon:is(:focus, :hover) {
+  background-color: blue;
+  color:white;
+}
