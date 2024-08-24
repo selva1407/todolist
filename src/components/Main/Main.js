@@ -7,7 +7,7 @@ const Main = ({items,handleCheck,handleDelete}) => {
   
   
   return (
-    <main>
+    <main className="mainTodo">
         <div className ="todo-container">
           {(items.length) ? (
             <ul>

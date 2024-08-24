@@ -60,14 +60,18 @@ function App() {
           setSearch = {setSearch}
         />
       </header>
-      <Main className ="Main"
-        items = {items.filter(item => ((item.item)).toLowerCase().includes(search.toLowerCase()))}
-        handleCheck = {handleCheck}
-        handleDelete = {handleDelete}
-      />
-      <Footer
-        listLength ={items.length}
-      />
+      <main className ="main-todo">
+        <Main
+          items = {items.filter(item => ((item.item)).toLowerCase().includes(search.toLowerCase()))}
+          handleCheck = {handleCheck}
+          handleDelete = {handleDelete}
+        />
+      </main>
+      <footer>
+        <Footer
+          listLength ={items.length}
+        />
+      </footer>
     </div>
   );
 }

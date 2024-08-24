@@ -4,12 +4,16 @@
   box-sizing: border-box;
 }
 
+.mainTodo {
+  height: 100%;
+}
+
 .todo-container {
  /*border: 1px solid black;*/
  border-radius: 5px;
- margin:150px 10px 0 10px;
+ margin:10px 10px 0 10px;
  padding:10px 10px 20px 10px;
- height:80vh;
+ height:77dvh;
  overflow-y: auto;
  box-shadow: 2px 2px 5px grey;
 }
